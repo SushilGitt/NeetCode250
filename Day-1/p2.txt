@@ -1,0 +1,65 @@
+Problem Name: Contains Duplicate
+Level: Easy
+Problem link: https://leetcode.com/problems/contains-duplicate/description/
+
+===================Solution: BRUTE FORCE===================================
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        for(int i=0; i < nums.size(); i++) {
+            for(int j=0; j < nums.size(); j++) {
+                if(i==j) {
+                continue;
+                }
+                else if(nums.at(i)==nums.at(j)) {
+                return true;
+            }
+        }
+    }
+    return false;
+    }
+};
+
+TC: O(n²)
+SC: O(1)
+
+===================Solution: BETTER=================================
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+    
+        for(int i=0; i < nums.size()-1; i++) {
+        if(nums.at(i)==nums.at(i+1)) {
+            return true;
+            }
+        }
+        return false;
+    }
+};
+
+TC: O(n log n)
+SC: O(1)
+
+===============Solution: Optimized==========================
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        unordered_map <int,int> ans;
+        for(int num:nums) {
+            ans[num]++;
+        }
+        for(auto x:ans) {
+            if(x.second > 1) {
+                return true;
+            }
+        }
+        return false;
+    }
+};
+
+TC: O(n)
+SC: O(n)

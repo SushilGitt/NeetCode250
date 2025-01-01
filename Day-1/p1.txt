@@ -1,0 +1,23 @@
+Problem Name: Concatenation of Array
+Level: Easy
+Problem link: https://leetcode.com/problems/concatenation-of-array/
+
+Solution:
+
+class Solution {
+public:
+    vector<int> getConcatenation(vector<int>& nums) {
+        vector<int> ans;
+
+        for(int num:nums) {
+            ans.push_back(num);
+        }
+        for(int num:nums) {
+            ans.push_back(num);
+        }
+        return ans;
+    }
+};
+
+TC: O(n)
+SC: O(n)
