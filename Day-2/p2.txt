@@ -1,0 +1,49 @@
+Problem Name: Two Sum
+Level: Easy
+Problem link: https://leetcode.com/problems/two-sum/description/
+
+========================Solution 1=========================
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector <int> ans;
+        for(int i=0; i < nums.size()-1; i++) {
+            for(int j=i+1; j < nums.size(); j++) {
+                if(nums.at(i)+nums.at(j)==target) {
+                    ans.push_back(i);
+                    ans.push_back(j);
+                    break;
+                }
+            }
+        }
+        return ans;
+    }
+};
+
+TC: O(n²) --> Using 2 loops
+SC: O(1) --> Storing 2 indeies 
+
+========================Solution 2=========================
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map <int,int> numsMap;
+        vector <int> ans;
+        for(int i=0; i < nums.size(); i++) {
+            int rem = target-nums.at(i);
+            if(numsMap.find(rem)!=numsMap.end()) {
+                int i2 = numsMap.find(rem)->second;
+                ans.push_back(i2);
+                ans.push_back(i);
+                break;
+            }
+            numsMap.insert({nums.at(i),i});
+        }
+        return ans;
+    }
+};
+
+TC: O(n) --> Traversing nums.
+SC: O(n) --> Using map DS of n size.

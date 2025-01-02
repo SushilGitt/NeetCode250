@@ -1,0 +1,28 @@
+Probelm Name: Longest Common Prefix
+Level: Easy
+Problem link: https://leetcode.com/problems/longest-common-prefix/description/
+
+==============================Solution===========================
+
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        string preFix = strs[0];
+        int preLen = preFix.length();
+
+        for(int i=1; i < strs.size(); i++) {
+            string word = strs[i];
+            while(preLen > word.length() || preFix != word.substr(0,preLen)) {
+                preLen--;
+                if(preLen==0) {
+                    return "";
+                }
+                preFix = preFix.substr(0,preLen);
+            }
+        }
+        return preFix;
+    }
+};
+
+TC: O(n*m) --> "n" is the size of strs and "m" is the length of strings in strs.
+SC: O(m) --> m is longest common prefix.

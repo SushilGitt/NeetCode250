@@ -1,0 +1,54 @@
+Problem Name: Valid Anagram
+Level: Easy
+Problem link: https://leetcode.com/problems/valid-anagram/description/
+
+
+========================Solution 1==============================
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        string str1 = s;
+        string str2 = t;
+        sort(str1.begin(),str1.end());
+        sort(str2.begin(),str2.end());
+        return str1==str2;
+    }
+};
+
+TC: O(n log n) --> Sorting algo.
+SC: O(n) --> Coppying s , t in  str1 and str2.
+
+========================Solution 2=============================
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        sort(s.begin(),s.end());
+        sort(t.begin(),t.end());
+        return s==t;
+    }
+};
+
+TC: O(n log n) --> Sorting algo.
+SC: O(log n) --> Stack space used by sorting algo.
+
+=======================Solution 3===============================
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        unordered_map <char,int> str1;
+        unordered_map <char,int> str2;
+        for(char c:s) {
+            str1[c]++;
+        }
+        for(char c:t) {
+            str2[c]++;
+        }
+        return str1==str2;
+    }
+};
+
+TC: O(n) --> Traversing str1.
+SC: O(n) --> Using map DS of n size.
