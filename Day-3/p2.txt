@@ -1,0 +1,24 @@
+Problem Name: Remove Element
+Level: Easy
+Problem link: https://leetcode.com/problems/remove-element/description/
+
+=======================Solution==========================
+
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int i = 0;
+
+        for(int j = 0; j < nums.size(); j++) {
+            if(nums.at(j) != val) {
+                nums.at(i) = nums.at(j);
+                i++;
+            }
+        }
+
+        return i;
+    }
+};
+
+TC: O(n)
+SC: O(1)

@@ -1,0 +1,58 @@
+Problem Name: Group Anagrams
+Level: Medium
+Problem link: https://leetcode.com/problems/group-anagrams/description/
+
+=============================Solution 1========================
+
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<vector<string>> ans;
+        unordered_map<string,vector<string>> anagrams;
+
+        for(string s:strs) {
+            string str = s;
+            sort(str.begin(), str.end());
+            anagrams[str].push_back(s);
+        }
+        for(auto &x:anagrams) {
+            ans.push_back(x.second);
+        }
+        return ans;
+    }
+};
+
+TC: O(n.m log m) --> "n" is length of strs and "m" is avg length of strings.
+SC: O(n.m) 
+
+
+==================Solution 2===================================
+
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string,vector<string>> anagrams;
+
+        for(string s:strs) {
+            vector<int> chars(26,0);
+            for(char c:s) {
+                chars[c-'a']++;
+            }
+
+            string key;
+            for(int num:chars) {
+                key += to_string(num) + "#";
+            }
+            anagrams[key].push_back(s);
+        }
+
+        vector<vector<string>> ans;
+        for(auto &x:anagrams) {
+            ans.push_back(x.second);
+        }
+        return ans;
+    }
+};
+
+TC: O(n.m)
+SC: O(n.m)
