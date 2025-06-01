@@ -23,4 +23,4 @@ Feel free to explore, learn, and suggest improvements!
 
 ## 1. Arrays and Hashing
 
-#### 1929. Concatenation of Array [Problem link](https://leetcode.com/problems/concatenation-of-array/description/) [Solution link](/Arrays%20and%20Hashing/Solution.java)
+- Concatenation of Array [Problem](https://leetcode.com/problems/concatenation-of-array/description/) | [Solution](/Arrays%20and%20Hashing/Solution.java)

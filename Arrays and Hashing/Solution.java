@@ -14,7 +14,7 @@ class Solution {
             ans[i + length] = nums[i];   // Copy original array to second half
         }
 
-        // Return the concatenated result
+        // Return the concatenated result.
         return ans;
     }
 }
