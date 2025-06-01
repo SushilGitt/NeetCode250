@@ -1,4 +1,3 @@
-
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int length = nums.length;
