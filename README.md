@@ -1,9 +1,26 @@
-# Neetcode-250
+# NeetCode DSA Sheet Solutions
 
-This repo contains the solution of the Neetcode 250 DSA sheet topic wise.
+This repository contains my personal solutions to the [NeetCode DSA Sheet](https://neetcode.io/). I'm using it as part of my journey to master data structures and algorithms in preparation for technical interviews and to deepen my problem-solving skills.
 
-## Arrays and Hashing
+## 🚀 Goals
+- Solve all problems in the sheet
+- Write clean, readable, and efficient code
+- Add brief explanations or comments for understanding
 
-### 1929. Concatenation of Array
-[Problem](https://leetcode.com/problems/concatenation-of-array/description/)
-[Solution](/Arrays%20and%20Hashing/Solution.java)
+## 📚 Topics Covered
+- Arrays & Hashing
+- Two Pointers
+- Sliding Window
+- Stack
+- Binary Search
+- Trees
+- Graphs
+- Dynamic Programming
+- And more...
+
+Feel free to explore, learn, and suggest improvements!
+
+
+## 1. Arrays and Hashing
+
+#### 1929. Concatenation of Array [Problem link](https://leetcode.com/problems/concatenation-of-array/description/) [Solution link](/Arrays%20and%20Hashing/Solution.java)
