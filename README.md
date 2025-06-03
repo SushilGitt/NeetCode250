@@ -25,3 +25,5 @@ Feel free to explore, learn, and suggest improvements!
 
 - Concatenation of Array [Problem](https://leetcode.com/problems/concatenation-of-array/description/) | [Solution](/Arrays%20and%20Hashing/Solution.java)
 - Contains Duplicate [Problem](https://leetcode.com/problems/contains-duplicate/description/) | [Solution](/Arrays%20and%20Hashing/Solution2.java)
+- Valid Anagram [Problem](https://leetcode.com/problems/valid-anagram/description/) | [Solution](/Arrays%20and%20Hashing/Solution3.java)
+- Two Sum [Problem](https://leetcode.com/problems/two-sum/description/) | [Solution](/Arrays%20and%20Hashing/Solution4.java)
