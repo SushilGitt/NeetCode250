@@ -27,3 +27,4 @@ Feel free to explore, learn, and suggest improvements!
 - Contains Duplicate [Problem](https://leetcode.com/problems/contains-duplicate/description/) | [Solution](/Arrays%20and%20Hashing/Solution2.java)
 - Valid Anagram [Problem](https://leetcode.com/problems/valid-anagram/description/) | [Solution](/Arrays%20and%20Hashing/Solution3.java)
 - Two Sum [Problem](https://leetcode.com/problems/two-sum/description/) | [Solution](/Arrays%20and%20Hashing/Solution4.java)
+- Longest Common Prefix [Problem](https://leetcode.com/problems/longest-common-prefix/description/) | [Solution](/Arrays%20and%20Hashing/Solution5.java)
