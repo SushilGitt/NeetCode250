@@ -24,7 +24,7 @@ Feel free to explore, learn, and suggest improvements!
 ## 1. Arrays and Hashing
 
 - [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/) | [Code](/Arrays%20and%20Hashing/Solution.java)
-- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Code]](/Arrays%20and%20Hashing/Solution2.java)
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Code](/Arrays%20and%20Hashing/Solution2.java)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Code](/Arrays%20and%20Hashing/Solution3.java)
 - [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Code](/Arrays%20and%20Hashing/Solution4.java)
 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Code](/Arrays%20and%20Hashing/Solution5.java)
