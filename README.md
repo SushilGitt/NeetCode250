@@ -23,11 +23,11 @@ Feel free to explore, learn, and suggest improvements!
 
 ## 1. Arrays and Hashing
 
-- [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/) | [Code](/Arrays%20and%20Hashing/Solution.java)
-- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Code](/Arrays%20and%20Hashing/Solution2.java)
-- [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Code](/Arrays%20and%20Hashing/Solution3.java)
-- [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Code](/Arrays%20and%20Hashing/Solution4.java)
-- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Code](/Arrays%20and%20Hashing/Solution5.java)
-- [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Code](/Arrays%20and%20Hashing/Solution6.java)
-- [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Code](/Arrays%20and%20Hashing/Solution7.java)
-- [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Code](/Arrays%20and%20Hashing/Solution8.java)
+- [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/) | [Code](/Arrays%20and%20Hashing/ConcatenationOfArray.java)
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Code](/Arrays%20and%20Hashing/ContainsDuplicate.java)
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Code](/Arrays%20and%20Hashing/ValidAnagram.java)
+- [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Code](/Arrays%20and%20Hashing/TwoSum.java)
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Code](/Arrays%20and%20Hashing/LongestCommonPrefix.java)
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Code](/Arrays%20and%20Hashing/GroupAnagrams.java)
+- [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Code](/Arrays%20and%20Hashing/RemoveElement.java)
+- [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Code](/Arrays%20and%20Hashing/MajorityElement.java)
