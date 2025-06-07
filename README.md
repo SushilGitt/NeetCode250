@@ -31,3 +31,5 @@ Feel free to explore, learn, and suggest improvements!
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Code](/Arrays%20and%20Hashing/GroupAnagrams.java)
 - [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Code](/Arrays%20and%20Hashing/RemoveElement.java)
 - [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Code](/Arrays%20and%20Hashing/MajorityElement.java)
+- [Design HashSet](https://leetcode.com/problems/design-hashset/description/) | [Code](/Arrays%20and%20Hashing/DesignHashSet.java)
+- [Design HashMap](https://leetcode.com/problems/design-hashmap/description/) | [Code](/Arrays%20and%20Hashing/DesignHashMap.java)
