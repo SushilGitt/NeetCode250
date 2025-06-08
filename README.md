@@ -22,7 +22,6 @@ Feel free to explore, learn, and suggest improvements!
 
 
 ## 1. Arrays and Hashing
-
 - [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/) | [Code](/Arrays%20and%20Hashing/ConcatenationOfArray.java)
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Code](/Arrays%20and%20Hashing/ContainsDuplicate.java)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Code](/Arrays%20and%20Hashing/ValidAnagram.java)
@@ -33,3 +32,5 @@ Feel free to explore, learn, and suggest improvements!
 - [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Code](/Arrays%20and%20Hashing/MajorityElement.java)
 - [Design HashSet](https://leetcode.com/problems/design-hashset/description/) | [Code](/Arrays%20and%20Hashing/DesignHashSet.java)
 - [Design HashMap](https://leetcode.com/problems/design-hashmap/description/) | [Code](/Arrays%20and%20Hashing/DesignHashMap.java)
+- [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | [Code](/Arrays%20and%20Hashing/SortAnArray.java)
+- [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [Code](/Arrays%20and%20Hashing/SortColors.java)
