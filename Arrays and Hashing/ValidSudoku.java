@@ -1,19 +1,13 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
 
-        boolean res = isValidBox(board, 0, 2, 0, 2);
-        res &= isValidBox(board, 0, 2, 3, 5);
-        res &= isValidBox(board, 0, 2, 6, 8);
-        res &= isValidBox(board, 3, 5, 0, 2);
-        res &= isValidBox(board, 3, 5, 3, 5);
-        res &= isValidBox(board, 3, 5, 6, 8);
-        res &= isValidBox(board, 6, 8, 0, 2);
-        res &= isValidBox(board, 6, 8, 3, 5);
-        res &= isValidBox(board, 6, 8, 6, 8);
-        res &= isValidCols(board);
-        res &= isValidRows(board);
+        for (int i = 0; i < 9; i += 3) {
+            for (int j = 0; j < 9; j += 3) {
+                if (!isValidBox(board, i, i+2, j, j+2)) return false;
+            }
+        }
 
-        return (res) ? true : false;
+        return isValidRows(board) && isValidCols(board);
         
     }
 
