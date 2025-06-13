@@ -37,3 +37,7 @@ Feel free to explore, learn, and suggest improvements!
 13. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) [📄](/Arrays%20and%20Hashing/TopKFrequentElements.java) 
 14. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) [📄](/Arrays%20and%20Hashing/ProductOfArrayExceptSelf.java)
 15. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) [📄](/Arrays%20and%20Hashing/ValidSudoku.java)
+16. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) [📄](/Arrays%20and%20Hashing/LongestConsecutiveSequence.java)
+
+## Two Pointers
+1. [Reverse String](https://leetcode.com/problems/reverse-string/description/) [📄](/Arrays%20and%20Hashing/ReverseString.java)
