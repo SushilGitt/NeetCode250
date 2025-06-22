@@ -40,7 +40,7 @@ Feel free to explore, learn, and suggest improvements!
 16. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) [📄](/Arrays%20and%20Hashing/LongestConsecutiveSequence.java)
 
 ## Two Pointers
-1. [Reverse String](https://leetcode.com/problems/reverse-string/description/) [📄](/Arrays%20and%20Hashing/ReverseString.java)
+1. [Reverse String](https://leetcode.com/problems/reverse-string/description/) [📄](/Two%20Pointers/ReverseString.java)
 2. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) [📄](/Two%20Pointers/ValidPalindrome.java)
 3. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) [📄](/Two%20Pointers/ValidPalindromeII.java)
 4. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) [📄](/Two%20Pointers/MergeStringsAlternately.java)
