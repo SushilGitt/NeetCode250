@@ -41,3 +41,11 @@ Feel free to explore, learn, and suggest improvements!
 
 ## Two Pointers
 1. [Reverse String](https://leetcode.com/problems/reverse-string/description/) [📄](/Arrays%20and%20Hashing/ReverseString.java)
+2. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) [📄](/Two%20Pointers/ValidPalindrome.java)
+3. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) [📄](/Two%20Pointers/ValidPalindromeII.java)
+4. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) [📄](/Two%20Pointers/MergeStringsAlternately.java)
+5. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) [📄](/Two%20Pointers/MergeSortedArray.java)
+6. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) [📄](/Two%20Pointers/RemoveDuplicatesfromSortedArray.java)
+7. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) [📄](/Two%20Pointers/TwoSumII-InputArrayIsSorted.java)
+8. [3Sum](https://leetcode.com/problems/3sum/description/) [📄](/Two%20Pointers/3Sum.java)
+9. [4Sum](https://leetcode.com/problems/4sum/description/) [📄](/Two%20Pointers/4Sum.java)
